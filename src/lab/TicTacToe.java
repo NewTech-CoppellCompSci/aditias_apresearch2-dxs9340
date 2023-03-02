@@ -1,8 +1,8 @@
-import package APResearch_APCS_Code;
+package APResearch_APCS Code;
 import java.util.Scanner;
 
 public class TicTacToe {
-    static char[][] board = char[3][3]; // Tic-tac-toe board
+    static char[][] board = new char[3][3]; // Tic-tac-toe board
     static Scanner sc = new Scanner(System.in); // Scanner for getting input from the user
     static char currentPlayer = 'X'; // Current player (X or O)
 
